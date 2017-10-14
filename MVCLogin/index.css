@@ -1,0 +1,33 @@
+/* 
+    Created on : Oct 22, 2014, 1:47:13 PM
+    Author     : biswajitb
+*/
+
+#loginArea
+{
+    margin: 0 auto;
+    background-color:#F0F0F5;
+    width:300px;
+}
+
+.line
+{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+}
+
+.labels
+{
+    display:inline;
+    width:30%;
+    float: left;
+}
+
+.inputs
+{
+    display:inline;
+    width:70%;
+    float: right;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MVC Login Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="jqSource.js"></script>
+    </head>
+    <body>
+        <div id="loginArea">
+            <form id="formLogin" method="POST" action="backend.php">
+                <div class="line"><div class="labels">Email:</div><div class="inputs"><input type="text" id="userName" name="userName" required></div></div>
+                <div class="line"><div class="labels">Password:</div><div class="inputs"><input type="password" id="password" name="password" required></div></div>
+                <div class="line"><input type="submit" name="submit" id="submit" value="Submit"></div>
+            </form>
+        </div>
+        <div id="dashBoard"></div>
+    </body>
+</html>
